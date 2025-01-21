@@ -100,23 +100,6 @@ The prominence of the Other category may indicate that various issues cannot be 
 
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue_heatmap.png)
 
-Most sub issues related to Managing an account:
-
-No-Sub (3284).
-Most notable sub-issues for deposits and withdrawals:
-
-Funds not received from closed account (6029).
-Other category:
-
-Problem accessing account (3521).
-Struggling to pay mortgage:
-
-Debt was paid (3428).
-For Problem with a purchase shown on your statement:
-
-Credit card company isn't resolving dispute (2351).
-Highlights:
-
 Some sub-issues are highly correlated with specific issues (e.g. Funds not received from closed account → Deposits and withdrawals).
 The fact that the No-Sub category is associated with many issues points to classification gaps.
 Some of the categories are highly focused, while others are scattered with multiple sub-issues. This highlights the need for detailed classification and analysis to better understand customer issues.
@@ -200,7 +183,7 @@ Closed with monetary relief is also very effective, indicating that customers ar
 The least effective method is Closed with explanation. This may indicate that just giving an explanation is not enough to ensure customer satisfaction and that the complaint requires a solution.    
 
 
-### Multiple correspondence analysis (MCA)
+## Multiple correspondence analysis (MCA)
 Which categorical variables are correlated?
 
 ### Issue & Month
@@ -252,3 +235,8 @@ The graphs show the changes in the number of monthly complaints in 2018, 2019 an
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/general.png)
 
 Data analysis shows a positive development in complaint trends between 2018 and 2020. The decrease in the number of complaints from 850 to 750 proves that the measures taken have been effective. However, a more detailed analysis shows that each year there is a significant increase in complaints in May (around +100 units), followed by a sharp decline in September (around -50 units). This regular fluctuation indicates that there is probably a seasonal peak or a special operational situation in May. It is also observed that complaints are minimized in January of each year. In line with this data, it is recommended to take additional measures especially before May and to review the operational processes during this period. 
+
+
+
+
+###### *Atilla Kiziltas*
