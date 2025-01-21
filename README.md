@@ -1,6 +1,4 @@
-
 # | Finance Application Complaints
-
 
 ### Table of Contents
 
@@ -49,7 +47,7 @@ The data set will be analysed using the exploratory analysis method, trends will
 ## Analysis Outputs
 ### Explorative Data Analysis
 
-#### Products
+#### **Products**
 
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/product_sub_product.png)
 
@@ -61,7 +59,7 @@ Most complaints are related to credit cards, indicating the widespread use of th
 
 Noteworthy The Unknown category has a very high number of complaints, which may indicate a lack of data or incorrect categorization.
 
-#### Issue
+#### **Issue**
 
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue.png)
 
