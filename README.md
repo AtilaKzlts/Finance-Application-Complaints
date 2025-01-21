@@ -16,6 +16,28 @@
 Our project focuses on analysing finance-related complaints in our application. In this context, exploratory analyses will be performed on complaints and answers to some business intelligence questions will be sought. potential trends, seasonalities and possible relationships between categorical variables are investigated.
 
 ## Executive summary
+
+The comprehensive analysis of finance app complaints from 2018-2020 provides important operational insights. The data showed a positive trend, with the number of complaints decreasing from 850 to 750.
+Featured Findings:
+
+Product Breakdown: Credit cards account for the largest share of total complaints (~17,500), followed by mortgages and checking/savings accounts (~10,000-12,000).
+Geographic Concentration: California ranks first with ~11,000 complaints, followed by Florida and New York with 6,000-6,500 complaints.
+Company Performance:
+
+Explained solution provided in 50,000 cases
+70,000 cases responded in a timely manner
+Only 7,000 cases resulted in appeals
+
+
+Seasonality: A significant increase in May each year (+100 units) and a sharp decrease in September (-50 units).
+
+Critical Insights:
+
+Among communication channels, web platform (35,000) and referral (22,000) are the most preferred methods.
+The resolution time for complaints received via routing is statistically longer than other channels.
+The “closed solution” response stood out as the method that minimized customer objections.
+
+In light of these data, strengthening operational preparations, especially before May, and improving the resolution processes of complaints received through the routing channel have been identified as priority action areas.
 ## About the Data Set
 | Column Name               | Description                                    |  
 |-------------------------------|----------------------------------------------------|  
