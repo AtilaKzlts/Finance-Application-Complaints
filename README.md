@@ -1,6 +1,4 @@
-
 # | Finance Application Complaints
-
 
 ### Table of Contents
 
@@ -18,6 +16,28 @@
 Our project focuses on analysing finance-related complaints in our application. In this context, exploratory analyses will be performed on complaints and answers to some business intelligence questions will be sought. potential trends, seasonalities and possible relationships between categorical variables are investigated.
 
 ## Executive summary
+
+The comprehensive analysis of finance app complaints from 2018-2020 provides important operational insights. The data showed a positive trend, with the number of complaints decreasing from 850 to 750.
+Featured Findings:
+
+Product Breakdown: Credit cards account for the largest share of total complaints (~17,500), followed by mortgages and checking/savings accounts (~10,000-12,000).
+Geographic Concentration: California ranks first with ~11,000 complaints, followed by Florida and New York with 6,000-6,500 complaints.
+Company Performance:
+
+Explained solution provided in 50,000 cases
+70,000 cases responded in a timely manner
+Only 7,000 cases resulted in appeals
+
+
+Seasonality: A significant increase in May each year (+100 units) and a sharp decrease in September (-50 units).
+
+Critical Insights:
+
+Among communication channels, web platform (35,000) and referral (22,000) are the most preferred methods.
+The resolution time for complaints received via routing is statistically longer than other channels.
+The “closed solution” response stood out as the method that minimized customer objections.
+
+In light of these data, strengthening operational preparations, especially before May, and improving the resolution processes of complaints received through the routing channel have been identified as priority action areas.
 ## About the Data Set
 | Column Name               | Description                                    |  
 |-------------------------------|----------------------------------------------------|  
@@ -49,9 +69,9 @@ The data set will be analysed using the exploratory analysis method, trends will
 ## Analysis Outputs
 ### Explorative Data Analysis
 
-#### Products
+### Products
 
-![image]()
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/product_sub_product.png)
 
 Product: Most complaints are in the Credit Card category (~17,500), followed by Mortgage and Checking or Savings Account (~10,000-12,000). The fewest complaints are in the Vehicle Loan or Lease category.
 
@@ -61,9 +81,9 @@ Most complaints are related to credit cards, indicating the widespread use of th
 
 Noteworthy The Unknown category has a very high number of complaints, which may indicate a lack of data or incorrect categorization.
 
-#### Issue
+### Issue
 
-![image]()
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue.png)
 
 Issue:
 Most complaints are in the Other category (~8,000), followed by Deposits and withdrawals (~6,000). The fewest complaints are in the APR or interest rate category.
@@ -76,34 +96,17 @@ Highlights
 The high No-Sub category indicates that some complaints are not categorized into specific subcategories. This may indicate a need for improvement in the data categorization or reporting process.
 The prominence of the Other category may indicate that various issues cannot be grouped under a specific heading. This suggests the need for more detailed categorization.
 
-#### Relationship between Top Issues and Sub-issues :
+### Relationship between Top Issues and Sub-issues :
 
-![image]()
-
-Most sub issues related to Managing an account:
-
-No-Sub (3284).
-Most notable sub-issues for deposits and withdrawals:
-
-Funds not received from closed account (6029).
-Other category:
-
-Problem accessing account (3521).
-Struggling to pay mortgage:
-
-Debt was paid (3428).
-For Problem with a purchase shown on your statement:
-
-Credit card company isn't resolving dispute (2351).
-Highlights:
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue_heatmap.png)
 
 Some sub-issues are highly correlated with specific issues (e.g. Funds not received from closed account → Deposits and withdrawals).
 The fact that the No-Sub category is associated with many issues points to classification gaps.
 Some of the categories are highly focused, while others are scattered with multiple sub-issues. This highlights the need for detailed classification and analysis to better understand customer issues.
 
-#### Product & State 
+### Product & State 
 
-![image]()
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/product_and_state.png)
  
 Main Findings:
 California tops the list with nearly 11,000 complaints. The states of Florida and New York follow with around 6,000-6,500 complaints each. Ohio and Pennsylvania have the lowest complaint rates, each recording around 2,000 cases.
@@ -115,9 +118,9 @@ Salient Points:
 + Significantly higher complaint rates in coastal states with high population density
 + Mortgage and credit card complaints rank high in all states
   
-#### Company & Consumer
+### Company & Consumer
 
-![image]()
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/company_consumer.png)
 
 Company Responses:
 Companies mostly provide solutions with explanations (50,000), with monetary solutions coming second (10,000).
@@ -137,8 +140,8 @@ High on-time response rate
 Low appeal rates
 Explanation-oriented solution approach
 
-#### Product & Complaint type time graph
-![image]()
+### Product & Complaint type time graph
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue_product_time_series.png)
 
 
 Annual Overall Trend:
@@ -158,17 +161,17 @@ Highlights:
 
 ### Business Intelligence Questions
 
-#### I. For issues that take more than 7 days to resolve, does the platform complained about make a difference?
+### I. For issues that take more than 7 days to resolve, does the platform complained about make a difference?
 
-![image]()
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue_7days_resolve.png)
 
 After the assumptions and checks were made, Kruskal wallis was done and concluded that at least one of them was different and then Dunn's test was done and the results were ;
 
 In the graph, we saw that the Referral communication type created a problem in solving the problem, but we did not know if this was random or significant. The results of Dunn's test support that your hypothesis is correct and that the 'Referral' group is significantly different from the other 'Sent-via' groups. So we can say that the 'Time_Diff' duration of the Routing group is statistically different from the other groups. 
 
-#### II. Is there a link between the answer given for the solution and the feedback of the customers?
+### II. Is there a link between the answer given for the solution and the feedback of the customers?
 
-![image]()
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/logistic_outputs.png)
 
 Ci Square test was applied and it was found that there is a direct relationship between the answers given and customer disputes.
 We will then run a logistic regression analysis to see which answer triggers customer returns,
@@ -180,12 +183,12 @@ Closed with monetary relief is also very effective, indicating that customers ar
 The least effective method is Closed with explanation. This may indicate that just giving an explanation is not enough to ensure customer satisfaction and that the complaint requires a solution.    
 
 
-### Multiple correspondence analysis (MCA)
+## Multiple correspondence analysis (MCA)
 Which categorical variables are correlated?
 
-#### Issue & Month
+### Issue & Month
 
-![image]()
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue_month.png)
 
 Settlement process and costs & Monthx_12
 Getting a credit card & Monthx_8
@@ -201,9 +204,9 @@ Complex Issues Occur in More Distinct Periods:
 
 Complex issues such as Settlement process and costs are more prevalent near the end of the year (Monthx_12).
 
-#### Issue & Product 
+### Issue & Product 
 
-![image]()
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue_product.png)
 
 Credit Card Problems (Top Right Zone)
 “Sub-issue_Credit card company isn't resolving a dispute about a purchase on your statement” and ‘Sub-product_General-purpose credit card or charge card’ are very close.
@@ -218,17 +221,23 @@ Mortgage and Payment Problems (Bottom Left Zone)
 This strong correlation suggests that issues related to mortgage products are concentrated on payment difficulties.
 
 ### Time Series
-#### Daily
-![image]()
+
+### Daily
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/daily.png)
 
 The graphs show the changes in the number of daily complaints in 2018, 2019 and 2020. In 2018, the number of daily complaints was generally between 300-450, while in 2019 these values were between 220-340 and in 2020 between 150-300. This shows that there has been a downward trend in the total number of complaints over the years. Significant fluctuations were observed in the number of daily complaints in all three years, with a decrease in the number of complaints especially in the last days of the month.
 
-#### Montly 
-![image]()
+### Montly 
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/montly.png)
 
 The graphs show the changes in the number of monthly complaints in 2018, 2019 and 2020. In 2018, the number of monthly complaints generally hovered between 800-1200, while in 2019 these values varied between 650-900 and in 2020 between 600-900. This shows that there has been a downward trend in the total number of complaints over the years. There were significant fluctuations in the number of monthly complaints in all three years, with an increase in the spring months in 2018 and 2019 and a decrease towards the end of the year.
 
-#### General Graph
-![image]()
+### General Graph
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/general.png)
 
 Data analysis shows a positive development in complaint trends between 2018 and 2020. The decrease in the number of complaints from 850 to 750 proves that the measures taken have been effective. However, a more detailed analysis shows that each year there is a significant increase in complaints in May (around +100 units), followed by a sharp decline in September (around -50 units). This regular fluctuation indicates that there is probably a seasonal peak or a special operational situation in May. It is also observed that complaints are minimized in January of each year. In line with this data, it is recommended to take additional measures especially before May and to review the operational processes during this period. 
+
+
+
+
+###### *Atilla Kiziltas*
