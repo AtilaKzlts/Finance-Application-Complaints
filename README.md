@@ -221,7 +221,8 @@ Mortgage and Payment Problems (Bottom Left Zone)
 This strong correlation suggests that issues related to mortgage products are concentrated on payment difficulties.
 
 ### Time Series
-#### Daily
+
+### Daily
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/daily.png)
 
 The graphs show the changes in the number of daily complaints in 2018, 2019 and 2020. In 2018, the number of daily complaints was generally between 300-450, while in 2019 these values were between 220-340 and in 2020 between 150-300. This shows that there has been a downward trend in the total number of complaints over the years. Significant fluctuations were observed in the number of daily complaints in all three years, with a decrease in the number of complaints especially in the last days of the month.
