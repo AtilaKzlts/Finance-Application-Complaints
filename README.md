@@ -161,7 +161,7 @@ Highlights:
 - Increase in product diversity and types of complaints over time
 - Increase in debt collection complaints due to financial crises
 
-### Business Intelligence Questions
+## Business Intelligence Questions +
 
 ### I. For issues that take more than 7 days to resolve, does the platform complained about make a difference?
 
