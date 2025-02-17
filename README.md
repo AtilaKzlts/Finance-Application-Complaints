@@ -19,27 +19,12 @@ Our project focuses on analysing finance-related complaints in our application. 
 
 ## Executive summary
 
-The comprehensive analysis of finance app complaints from 2018-2020 provides important operational insights. The data showed a positive trend, with the number of complaints decreasing from 850 to 750.
-Featured Findings:
+The analysis of finance app complaints from 2018 to 2020 shows a positive trend, with the number of complaints decreasing from 850 to 750. Key findings indicate that credit cards (~17,500 complaints) receive the most complaints, followed by mortgages and checking/savings accounts (~10,000-12,000). Geographically, California ranks first with around 11,000 complaints, followed by Florida and New York with 6,000-6,500 complaints, respectively. In terms of company performance, 50,000 cases had a provided solution, 70,000 cases were responded to in a timely manner, and only 7,000 cases resulted in appeals. Seasonally, there is a noticeable increase in complaints in May (+100 units) and a sharp decrease in September (-50 units). Among communication channels, the web platform (35,000 complaints) and referrals (22,000 complaints) are the most preferred methods. Complaints received via the routing channel have statistically longer resolution times compared to other channels. The "closed solution" response emerged as the most effective method for minimizing customer objections.
 
-Product Breakdown: Credit cards account for the largest share of total complaints (~17,500), followed by mortgages and checking/savings accounts (~10,000-12,000).
-Geographic Concentration: California ranks first with ~11,000 complaints, followed by Florida and New York with 6,000-6,500 complaints.
-Company Performance:
+Critical Insights and Recommendations
++ The "unknown" problem category in the dataset is the second most common issue group, and it needs to be properly classified and resolved.
 
-Explained solution provided in 50,000 cases
-70,000 cases responded in a timely manner
-Only 7,000 cases resulted in appeals
-
-
-Seasonality: A significant increase in May each year (+100 units) and a sharp decrease in September (-50 units).
-
-Critical Insights:
-
-Among communication channels, web platform (35,000) and referral (22,000) are the most preferred methods.
-The resolution time for complaints received via routing is statistically longer than other channels.
-The “closed solution” response stood out as the method that minimized customer objections.
-
-In light of these data, strengthening operational preparations, especially before May, and improving the resolution processes of complaints received through the routing channel have been identified as priority action areas.
++ Strengthening operational preparations, particularly before May, and improving the resolution processes for complaints received through the routing channel have been identified as priority action areas.
 ## About the Data Set
 | Column Name               | Description                                    |  
 |-------------------------------|----------------------------------------------------|  
@@ -75,9 +60,9 @@ The data set will be analysed using the exploratory analysis method, trends will
 
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/product_sub_product.png)
 
-Product: Most complaints are in the Credit Card category (~17,500), followed by Mortgage and Checking or Savings Account (~10,000-12,000). The fewest complaints are in the Vehicle Loan or Lease category.
++ Product: Most complaints are in the Credit Card category (~17,500), followed by Mortgage and Checking or Savings Account (~10,000-12,000). The fewest complaints are in the Vehicle Loan or Lease category.
 
-Sub-product: Most complaints are in the Unknown category (~17,500), followed by General-purpose credit card and Checking account. The fewest complaints are in Credit Card Debt and other smaller sub-categories.
++ Sub-product: Most complaints are in the Unknown category (~17,500), followed by General-purpose credit card and Checking account. The fewest complaints are in Credit Card Debt and other smaller sub-categories.
 
 Most complaints are related to credit cards, indicating the widespread use of these products in the financial sector and potential customer issues.
 
@@ -87,16 +72,11 @@ Noteworthy The Unknown category has a very high number of complaints, which may 
 
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue.png)
 
-Issue:
-Most complaints are in the Other category (~8,000), followed by Deposits and withdrawals (~6,000). The fewest complaints are in the APR or interest rate category.
++ Issue: Most complaints are in the Other category (~8,000), followed by Deposits and withdrawals (~6,000). The fewest complaints are in the APR or interest rate category.
 
-Sub-issue:
++ Sub-issue:
 Most complaints are in the No-Sub category (~40,000), followed by Deposits and withdrawals. The fewest complaints are in other smaller sub-categories (Problem with fees, Transaction was not authorized, etc.).
 
-Highlights
-
-The high No-Sub category indicates that some complaints are not categorized into specific subcategories. This may indicate a need for improvement in the data categorization or reporting process.
-The prominence of the Other category may indicate that various issues cannot be grouped under a specific heading. This suggests the need for more detailed categorization.
 
 ### Relationship between Top Issues and Sub-issues :
 
@@ -110,10 +90,10 @@ Some of the categories are highly focused, while others are scattered with multi
 
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/product_and_state.png)
  
-Main Findings:
++ Main Findings:
 California tops the list with nearly 11,000 complaints. The states of Florida and New York follow with around 6,000-6,500 complaints each. Ohio and Pennsylvania have the lowest complaint rates, each recording around 2,000 cases.
 
-Product Categories Analysis:
++ Product Categories Analysis:
 Mortgage products have the highest complaint rate, especially in the larger states. This is followed by credit cards and bank account services. Student loans and car loans have relatively low complaint rates.
 
 Salient Points:
@@ -124,19 +104,19 @@ Salient Points:
 
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/company_consumer.png)
 
-Company Responses:
++ Company Responses:
 Companies mostly provide solutions with explanations (50,000), with monetary solutions coming second (10,000).
 
-Response Time:
++ Response Time:
 Most companies responded on time (70,000 cases) and performance in this area is very high.
 
-Appeal Status:
++ Appeal Status:
 Most cases ended either unknown (35,000) or without appeal (30,000). Only 7,000 cases were appealed.
 
-Communication Channels:
++ Communication Channels:
 Web platform (35,000) and referral (22,000) are the most preferred methods of contact.
 
-Highlights
++ Highlights
 Dominance of digital channels
 High on-time response rate
 Low appeal rates
@@ -146,13 +126,13 @@ Explanation-oriented solution approach
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue_product_time_series.png)
 
 
-Annual Overall Trend:
++ Annual Overall Trend:
 The number of complaints increased sharply from 2011 to 2012, peaked at 10,000 in 2018, and started to decline again towards 2020.
 
-Monthly Complaint Types:
++ Monthly Complaint Types:
 Managing an account and Deposits and withdrawals are the most common types of complaints. Especially after 2017, there has been a significant increase in account management complaints.
 
-Product-Based Trends:
++ Product-Based Trends:
 Credit cards and mortgage products have consistently been the most complained about categories. After 2016, there was a relative decline in credit card complaints, while debt collection complaints increased.
 
 Highlights:
@@ -160,29 +140,6 @@ Highlights:
 - Downward trend starting after 2018
 - Increase in product diversity and types of complaints over time
 - Increase in debt collection complaints due to financial crises
-
-## Business Intelligence Questions +
-
-### I. For issues that take more than 7 days to resolve, does the platform complained about make a difference?
-
-![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue_7days_resolve.png)
-
-After the assumptions and checks were made, Kruskal wallis was done and concluded that at least one of them was different and then Dunn's test was done and the results were ;
-
-In the graph, we saw that the Referral communication type created a problem in solving the problem, but we did not know if this was random or significant. The results of Dunn's test support that your hypothesis is correct and that the 'Referral' group is significantly different from the other 'Sent-via' groups. So we can say that the 'Time_Diff' duration of the Routing group is statistically different from the other groups. 
-
-### II. Is there a link between the answer given for the solution and the feedback of the customers?
-
-![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/logistic_outputs.png)
-
-Ci Square test was applied and it was found that there is a direct relationship between the answers given and customer disputes.
-We will then run a logistic regression analysis to see which answer triggers customer returns,
-
- the results are as follows;
-
-‘Closed with relief’, i.e. the provision of a solution in general terms, is the method that most reduces the likelihood that customers will complain again.
-Closed with monetary relief is also very effective, indicating that customers are satisfied that they have received a financial response to their complaint.
-The least effective method is Closed with explanation. This may indicate that just giving an explanation is not enough to ensure customer satisfaction and that the complaint requires a solution.    
 
 
 ## Multiple correspondence analysis (MCA)
@@ -234,10 +191,31 @@ The graphs show the changes in the number of daily complaints in 2018, 2019 and 
 
 The graphs show the changes in the number of monthly complaints in 2018, 2019 and 2020. In 2018, the number of monthly complaints generally hovered between 800-1200, while in 2019 these values varied between 650-900 and in 2020 between 600-900. This shows that there has been a downward trend in the total number of complaints over the years. There were significant fluctuations in the number of monthly complaints in all three years, with an increase in the spring months in 2018 and 2019 and a decrease towards the end of the year.
 
-### General Graph
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/general.png)
 
 Data analysis shows a positive development in complaint trends between 2018 and 2020. The decrease in the number of complaints from 850 to 750 proves that the measures taken have been effective. However, a more detailed analysis shows that each year there is a significant increase in complaints in May (around +100 units), followed by a sharp decline in September (around -50 units). This regular fluctuation indicates that there is probably a seasonal peak or a special operational situation in May. It is also observed that complaints are minimized in January of each year. In line with this data, it is recommended to take additional measures especially before May and to review the operational processes during this period. 
+
+## Business Intelligence Questions +
+
+### I. For issues that take more than 7 days to resolve, does the platform complained about make a difference?
+
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue_7days_resolve.png)
+
+After the assumptions and checks were made, Kruskal wallis was done and concluded that at least one of them was different and then Dunn's test was done and the results were ;
+
+In the graph, we saw that the Referral communication type created a problem in solving the problem, but we did not know if this was random or significant. The results of Dunn's test support that your hypothesis is correct and that the 'Referral' group is significantly different from the other 'Sent-via' groups. So we can say that the 'Time_Diff' duration of the Routing group is statistically different from the other groups. 
+
+### II. Is there a link between the answer given for the solution and the feedback of the customers?
+
+![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/logistic_outputs.png)
+
+Ci Square test was applied and it was found that there is a direct relationship between the answers given and customer disputes.
+We will then run a logistic regression analysis to see which answer triggers customer returns,
+
+The results are as follows;
++ `Closed with relief`, i.e. the provision of a solution in general terms, is the method that most reduces the likelihood that customers will complain again.
+Closed with monetary relief is also very effective, indicating that customers are satisfied that they have received a financial response to their complaint.
+The least effective method is Closed with explanation. This may indicate that just giving an explanation is not enough to ensure customer satisfaction and that the complaint requires a solution.    
 
 
 
