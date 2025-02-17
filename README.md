@@ -15,7 +15,7 @@
 
 ## Project Introduction
 
-Our project focuses on analysing finance-related complaints in our application. In this context, exploratory analyses will be performed on complaints and answers to some business intelligence questions will be sought. potential trends, seasonalities and possible relationships between categorical variables are investigated.
+Our project focuses on analyzing finance related complaints in our application. In this context, exploratory analysis will be performed on the complaints and answers to some business intelligence questions will be sought. potential trends, seasonality and possible relationships between categorical variables will be investigated, the report will be forwarded to the development team.
 
 ## Executive summary
 
