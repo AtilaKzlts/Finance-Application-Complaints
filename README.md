@@ -10,6 +10,8 @@
     - Objective
 - Analysis Outputs
     - Explorative Data Analysis
+       + MCA
+       + Time Series
     - Business Intelligence Questions
 - Detailed Summary and Recommendations
 
