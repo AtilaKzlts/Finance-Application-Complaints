@@ -13,7 +13,7 @@
        + MCA
        + Time Series
     - Business Intelligence Questions
-- Detailed Summary and Recommendations
+
 
 ## Project Introduction
 
