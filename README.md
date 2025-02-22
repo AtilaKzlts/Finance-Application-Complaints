@@ -1,6 +1,11 @@
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/bar.png)
 
-# | Finance Application Complaints
+
+<div align="center">
+  <h1>Finance Application Complaints</h1>
+ </p>
+</div>
+
 
 ### Table of Contents
 
