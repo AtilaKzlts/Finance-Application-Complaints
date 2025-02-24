@@ -58,8 +58,9 @@ The data set will be analysed using the exploratory analysis method, trends will
 + Do the platform complained about make a difference for issues resolved in more than 7 days?
 + Is there a correlation between the response to resolution and customer feedback?
 + Is there seasonality or significant trends?
-+ Can detailed analyses be made with the Multiple Correspondence Analysis (MCA) method? 
++ Can detailed analyses be made with the Multiple Correspondence Analysis (MCA) method?
 
+[See notebooks](https://github.com/AtilaKzlts/Finance-Application-Complaints/tree/main/assets/notebooks)
 ## Analysis Outputs
 ### Explorative Data Analysis
 
