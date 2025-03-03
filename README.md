@@ -22,7 +22,7 @@
 
 ## Project Introduction
 
-Our project focuses on analyzing financial complaints within our application. In this context, exploratory data analysis will be conducted on the complaints, and specific business intelligence questions will be addressed. Potential trends, seasonality effects, and possible relationships between categorical variables will be examined, and the findings will be shared with the report development team. As a result of these analyses, the goal is to **reduce the workload of call center employees by 20%.**
+Our project focuses on analyzing financial complaints within our application. In this context, exploratory data analysis will be performed on complaints and specific BI questions will be addressed. Possible trends, seasonality effects and possible relationships between categorical variables will be analyzed and findings will be shared with the report development team. As a result of these analyses, it is aimed to **reduce the workload of call center employees by 20%.** thus trying to save budget by reducing extra overtime
 
 ## Executive summary
 
