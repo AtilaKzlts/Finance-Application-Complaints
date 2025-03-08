@@ -26,12 +26,21 @@ Our project focuses on analyzing financial complaints within our application. In
 
 ## Executive summary
 
+[See the Presentation](https://docs.google.com/presentation/d/1yUPKQ3JXwDIHMPaWatDyzI_Z8xevNmKd30uPC0ewo_Y/edit?usp=sharing)
+
 The analysis of finance app complaints from 2018 to 2020 shows a positive trend, with the number of complaints decreasing from 850 to 750. Key findings indicate that credit cards (~17,500 complaints) receive the most complaints, followed by mortgages and checking/savings accounts (~10,000-12,000). Geographically, California ranks first with around 11,000 complaints, followed by Florida and New York with 6,000-6,500 complaints, respectively. In terms of company performance, 50,000 cases had a provided solution, 70,000 cases were responded to in a timely manner, and only 7,000 cases resulted in appeals. Seasonally, there is a noticeable increase in complaints in May (+100 units) and a sharp decrease in September (-50 units). Among communication channels, the web platform (35,000 complaints) and referrals (22,000 complaints) are the most preferred methods. Complaints received via the routing channel have statistically longer resolution times compared to other channels. The "closed solution" response emerged as the most effective method for minimizing customer objections.
 
 Critical Insights and Recommendations
 + The "unknown" problem category in the dataset is the second most common issue group, and it needs to be properly classified and resolved.
 
 + Strengthening operational preparations, particularly before May, and improving the resolution processes for complaints received through the routing channel have been identified as priority action areas.
+
++ Creating an account information passport to ensure seamless and secure information flow between departments.
+
++ Create an application library of successful solution examples, centralizing approaches that have yielded effective results in the past.
+
+
+
 ## About the Data Set
 | Column Name               | Description                                    |  
 |-------------------------------|----------------------------------------------------|  
