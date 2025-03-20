@@ -166,34 +166,35 @@ Which categorical variables are correlated?
 
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue_month.png)
 
-Settlement process and costs & Monthx_12
-Getting a credit card & Monthx_8
-Billing disputes & Monthx_3
-These three examples are examples where I think there are strong relationships between months and problems due to their spatial proximity. In particular, I think that factors such as financial year closures, campaign periods, or structural changes can cause these relationships.
-Different Months are Associated with Different Problems:
+**Different Months Are Associated with Different Problems:**
+   - **Monthx_1 and Monthx_2 (Beginning of the Year):** Strong association with financial problems like interest rates and fraud.
+   - **Monthx_6 and Monthx_7 (Summer Months):** More associated with day-to-day banking transactions.
+   
+**Certain Issues Have Strong Month-to-Month Relationships:**
+   - **Settlement Process and Costs, Monthx_12 (End of the Year):** Strong relationship due to factors like financial year closures, campaign periods, or structural changes.
+   - **Monthx_8 and Monthx_3 (Billing Disputes):** Linked to particular periods, likely due to seasonal factors or campaign-related issues.
 
-For example, months at the beginning of the year (Monthx_1, Monthx_2) are more associated with financial problems (interest rates, fraud), while summer months (Monthx_6, Monthx_7) are associated with more day-to-day banking transactions.
-Some Problems Behave Independently:
+**Some Problems Behave Independently:**
+   - **Struggling to Pay Mortgage** and **Billing Disputes:** These issues don't show strong associations with specific months or other issues, indicating their independence from seasonal or structural trends.
 
-Struggling to pay mortgage and Billing disputes in particular do not show strong associations with other months or issues.
-Complex Issues Occur in More Distinct Periods:
+**Complex Issues Occur in More Distinct Periods:**
+   - **Settlement Process and Costs (Monthx_12):** These issues tend to peak towards the end of the year, likely due to year-end financial activities or system transitions. 
 
-Complex issues such as Settlement process and costs are more prevalent near the end of the year (Monthx_12).
 
 ### Issue & Product 
 
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue_product.png)
 
 Credit Card Problems (Top Right Zone)
-“Sub-issue_Credit card company isn't resolving a dispute about a purchase on your statement” and ‘Sub-product_General-purpose credit card or charge card’ are very close.
++ “Sub-issue_Credit card company isn't resolving a dispute about a purchase on your statement” and ‘Sub-product_General-purpose credit card or charge card’ are very close.
 This relationship suggests that credit card problems are more likely to be caused by disputes.
 
 “Sub-issue_Deposits and withdrawals” is very close to “Sub-product_Checking account” and “Product_Checking or savings account”.
-This indicates that problems with checking accounts and deposits and withdrawals are frequent.
++ This indicates that problems with checking accounts and deposits and withdrawals are frequent.
 Comment: Errors or delays in cash transactions in bank accounts may be a factor here. You can especially examine the banking infrastructure.
 
 Mortgage and Payment Problems (Bottom Left Zone)
-“Issue_Struggling to pay mortgage”, ‘Product_Mortgage’ and ‘Sub-product_Conventional home mortgage’ are in close proximity.
++ “Issue_Struggling to pay mortgage”, ‘Product_Mortgage’ and ‘Sub-product_Conventional home mortgage’ are in close proximity.
 This strong correlation suggests that issues related to mortgage products are concentrated on payment difficulties.
 
 ### Time Series
@@ -212,15 +213,15 @@ The graphs show the changes in the number of monthly complaints in 2018, 2019 an
 
 Data analysis shows a positive development in complaint trends between 2018 and 2020. The decrease in the number of complaints from 850 to 750 proves that the measures taken have been effective. However, a more detailed analysis shows that each year there is a significant increase in complaints in May (around +100 units), followed by a sharp decline in September (around -50 units). This regular fluctuation indicates that there is probably a seasonal peak or a special operational situation in May. It is also observed that complaints are minimized in January of each year. In line with this data, it is recommended to take additional measures especially before May and to review the operational processes during this period. 
 
-## Business Intelligence Questions +
-
 ### I. For issues that take more than 7 days to resolve, does the platform complained about make a difference?
 
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue_7days_resolve.png)
 
 After the assumptions and checks were made, Kruskal wallis was done and concluded that at least one of them was different and then Dunn's test was done and the results were ;
 
-In the graph, we saw that the Referral communication type created a problem in solving the problem, but we did not know if this was random or significant. The results of Dunn's test support that your hypothesis is correct and that the 'Referral' group is significantly different from the other 'Sent-via' groups. So we can say that the 'Time_Diff' duration of the Routing group is statistically different from the other groups. 
++ In the graph, we saw that the Referral communication type created a problem in solving the problem, but we did not know if this was random or significant. The results of Dunn's test support that your hypothesis is correct and that the `Referral` group is significantly different from the other 'Sent-via' groups.
+
+ So we can say that the 'Time_Diff' duration of the Referral group is statistically different from the other groups. 
 
 ### II. Is there a link between the answer given for the solution and the feedback of the customers?
 
@@ -233,7 +234,6 @@ The results are as follows;
 + `Closed with relief`, i.e. the provision of a solution in general terms, is the method that most reduces the likelihood that customers will complain again.
 Closed with monetary relief is also very effective, indicating that customers are satisfied that they have received a financial response to their complaint.
 The least effective method is Closed with explanation. This may indicate that just giving an explanation is not enough to ensure customer satisfaction and that the complaint requires a solution.    
-
 
 
 
