@@ -17,7 +17,7 @@
     - Explorative Data Analysis
        + MCA
        + Time Series
-    - Business Intelligence Questions
+    - Business Questions
 
 
 ## Project Introduction
@@ -212,6 +212,8 @@ The graphs show the changes in the number of monthly complaints in 2018, 2019 an
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/general.png)
 
 Data analysis shows a positive development in complaint trends between 2018 and 2020. The decrease in the number of complaints from 850 to 750 proves that the measures taken have been effective. However, a more detailed analysis shows that each year there is a significant increase in complaints in May (around +100 units), followed by a sharp decline in September (around -50 units). This regular fluctuation indicates that there is probably a seasonal peak or a special operational situation in May. It is also observed that complaints are minimized in January of each year. In line with this data, it is recommended to take additional measures especially before May and to review the operational processes during this period. 
+
+## Business Questions
 
 ### I. For issues that take more than 7 days to resolve, does the platform complained about make a difference?
 
