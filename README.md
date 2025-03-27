@@ -166,19 +166,19 @@ Which categorical variables are correlated?
 
 ![image](https://github.com/AtilaKzlts/Finance-Application-Complaints/blob/main/assets/pics/issue_month.png)
 
-**Different Months Are Associated with Different Problems:**
-   - **Monthx_1 and Monthx_2 (Beginning of the Year):** Strong association with financial problems like interest rates and fraud.
-   - **Monthx_6 and Monthx_7 (Summer Months):** More associated with day-to-day banking transactions.
-   
-**Certain Issues Have Strong Month-to-Month Relationships:**
-   - **Settlement Process and Costs, Monthx_12 (End of the Year):** Strong relationship due to factors like financial year closures, campaign periods, or structural changes.
-   - **Monthx_8 and Monthx_3 (Billing Disputes):** Linked to particular periods, likely due to seasonal factors or campaign-related issues.
+Different Months Are Associated with Different Problems:
+   - **January and February (Beginning of the Year):** There is a strong association with financial issues such as interest rates and fraud.
+   - **June and July (Summer Months):** More closely tied to day-to-day banking transactions.
 
-**Some Problems Behave Independently:**
-   - **Struggling to Pay Mortgage** and **Billing Disputes:** These issues don't show strong associations with specific months or other issues, indicating their independence from seasonal or structural trends.
+Certain Issues Have Strong Month-to-Month Relationships:
+   - **Settlement Process and Costs, December (End of the Year):** A strong relationship exists due to factors like year-end financial closures, campaign periods, or structural changes.
+   - **August and March (Billing Disputes):** These are linked to specific periods, likely influenced by seasonal factors or campaign-related issues.
 
-**Complex Issues Occur in More Distinct Periods:**
-   - **Settlement Process and Costs (Monthx_12):** These issues tend to peak towards the end of the year, likely due to year-end financial activities or system transitions. 
+Some Problems Behave Independently:
+   - **Struggling to Pay Mortgage** and **Billing Disputes:** These issues do not show strong associations with specific months or other problems, indicating their independence from seasonal or structural trends.
+
+Complex Issues Occur in More Distinct Periods:
+   - **Settlement Process and Costs (December):** These issues tend to peak towards the end of the year, likely due to year-end financial activities or system transitions.
 
 
 ### Issue & Product 
